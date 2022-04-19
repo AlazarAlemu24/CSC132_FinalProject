@@ -8,7 +8,7 @@ namespace CSC132_FinalProject
 {
     static class Program
     {
-        /// <summary>
+        /// <summary> change on comments
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
