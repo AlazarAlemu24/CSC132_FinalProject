@@ -100,5 +100,11 @@ namespace CSC132_FinalProject
             txtSummer4.Enabled = true;
             txtSM9.Enabled = true;
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            HomePage BackToIntro = new HomePage();
+            BackToIntro.Show();
+        }
     }
 }

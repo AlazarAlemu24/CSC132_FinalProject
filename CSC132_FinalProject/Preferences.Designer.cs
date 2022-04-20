@@ -136,28 +136,28 @@ namespace CSC132_FinalProject
             // sevenSemestersToolStripMenuItem
             // 
             this.sevenSemestersToolStripMenuItem.Name = "sevenSemestersToolStripMenuItem";
-            this.sevenSemestersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sevenSemestersToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.sevenSemestersToolStripMenuItem.Text = "Six Semesters";
             this.sevenSemestersToolStripMenuItem.Click += new System.EventHandler(this.sevenSemestersToolStripMenuItem_Click);
             // 
             // sevenToolStripMenuItem
             // 
             this.sevenToolStripMenuItem.Name = "sevenToolStripMenuItem";
-            this.sevenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sevenToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.sevenToolStripMenuItem.Text = "Seven Semesters";
             this.sevenToolStripMenuItem.Click += new System.EventHandler(this.sevenToolStripMenuItem_Click);
             // 
             // eightSemestersToolStripMenuItem
             // 
             this.eightSemestersToolStripMenuItem.Name = "eightSemestersToolStripMenuItem";
-            this.eightSemestersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eightSemestersToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.eightSemestersToolStripMenuItem.Text = "Eight Semesters";
             this.eightSemestersToolStripMenuItem.Click += new System.EventHandler(this.eightSemestersToolStripMenuItem_Click);
             // 
             // nineSemestersToolStripMenuItem
             // 
             this.nineSemestersToolStripMenuItem.Name = "nineSemestersToolStripMenuItem";
-            this.nineSemestersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nineSemestersToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.nineSemestersToolStripMenuItem.Text = "Nine Semesters";
             this.nineSemestersToolStripMenuItem.Click += new System.EventHandler(this.nineSemestersToolStripMenuItem_Click);
             // 
@@ -512,6 +512,7 @@ namespace CSC132_FinalProject
             this.btnBack.TabIndex = 44;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnNext
             // 

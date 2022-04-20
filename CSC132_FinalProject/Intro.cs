@@ -22,5 +22,11 @@ namespace CSC132_FinalProject
          Console.WriteLine("Can you see this? Yes I can || good");
         
         }
+
+        private void btncontinue_Click(object sender, EventArgs e)
+        {
+
+            
+        }
     }
 }
